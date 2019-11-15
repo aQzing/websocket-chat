@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>chat</title>
+
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<meta name="content-type" content="text/html" charset="UTF-8">
+
+<link rel="stylesheet" type="text/css" href="../css/chatroom.css">
+</head>
+
+<body>
+	<div>
+		<div style="float: left; width: 40%">
+			<p>请选择你是谁：</p>
+			<select id="selectName" th:οnChange="'javascript:sendAloneUser();'">
+				<option value="1">请选择</option>
+				<option value="ALong">ALong</option>
+				<option value="AKan">AKan</option>
+				<option value="AYuan">AYuan</option>
+				<option value="ALai">ALai</option>
+				<option value="ASheng">ASheng</option>
+			</select>
+			<div class="chatWindow">
+				<p style="color: darkgrey">群聊：</p>
+				<section id="chatRecord" class="chatRecord">
+					<p id="titleval" style="color: #CD2626;"></p>
+				</section>
+				<section class="sendWindow">
+					<textarea name="sendChatValue" id="sendChatValue"
+						class="sendChatValue"></textarea>
+					<input type="button" name="sendMessage" id="sendMessage"
+						class="sendMessage" th:onClick="sendMassMessage()" value="发送">
+				</section>
+			</div>
+		</div>
+
+
+		<div style="float: right; width: 40%">
+			<p>请选择你要发给谁：</p>
+			<select id="selectName2">
+				<option value="1">请选择</option>
+				<option value="ALong">ALong</option>
+				<option value="AKan">AKan</option>
+				<option value="AYuan">AYuan</option>
+				<option value="ALai">ALai</option>
+				<option value="ASheng">ASheng</option>
+			</select>
+			<div class="chatWindow">
+				<p style="color: darkgrey">单独聊：</p>
+				<section id="chatRecord2" class="chatRecord">
+					<p id="titleval" style="color: #CD2626;"></p>
+				</section>
+				<section class="sendWindow">
+					<textarea name="sendChatValue2" id="sendChatValue2"
+						class="sendChatValue"></textarea>
+					<input type="button" name="sendMessage" id="sendMessage"
+						class="sendMessage" th:onClick="'javascript:sendAloneMessage()'" value="发送">
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- 独立JS -->
+	<script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/chatroom.js" charset="utf-8"></script>
+	<script type="text/javascript" src="../js/sockjs.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="../js/stomp.min.js" charset="utf-8"></script>
+</body>
+</html>
