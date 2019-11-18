@@ -1,5 +1,11 @@
 package com.qzing.websocket.controller;
 
+import javax.websocket.OnClose;
+import javax.websocket.OnError;
+import javax.websocket.OnMessage;
+import javax.websocket.OnOpen;
+import javax.websocket.Session;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
@@ -10,7 +16,9 @@ import org.springframework.stereotype.Controller;
 import com.qzing.websocket.pojo.ChatRoomRequest;
 import com.qzing.websocket.pojo.ChatRoomResponse;
 import com.qzing.websocket.pojo.User;
- 
+
+import lombok.extern.slf4j.Slf4j;
+ @Slf4j
 @Controller
 public class WebSocketController {
 	
@@ -27,7 +35,7 @@ public class WebSocketController {
     	this.template.convertAndSend("/topic/getResponse",user);
     }
     //广播单一向指定用户推送消息
-    @Scheduled(initialDelay = 5000,fixedRate = 5000)
+    //@Scheduled(initialDelay = 5000,fixedRate = 5000)
     public void serverToOneMessage() {
 	System.out.println("后台广播指定对象推送！");
 	User user=new User();
@@ -52,21 +60,22 @@ public class WebSocketController {
         ChatRoomResponse response=new ChatRoomResponse();
         response.setName(chatRoomRequest.getName());
         response.setChatValue(chatRoomRequest.getChatValue());
+        //this.template.convertAndSend("/mass/getResponse", response);
         return response;
     }
 		
     //单独聊天
     @MessageMapping("/aloneRequest")	
-    public ChatRoomResponse alone(ChatRoomRequest chatRoomRequest){
+    public void alone(ChatRoomRequest chatRoomRequest){
         //方法用于一对一测试
 	System.out.println("userId = " + chatRoomRequest.getUserId());
+		log.info("::::::::::::::::");
         System.out.println("name = " + chatRoomRequest.getName());
         System.out.println("chatValue = " + chatRoomRequest.getChatValue());	       
         ChatRoomResponse response=new ChatRoomResponse();
         response.setName(chatRoomRequest.getName());       
         response.setChatValue(chatRoomRequest.getChatValue());
         this.template.convertAndSendToUser(chatRoomRequest.getUserId(),"/alone/getResponse",response);
-        return response;
-
+        return;
     }  
 }

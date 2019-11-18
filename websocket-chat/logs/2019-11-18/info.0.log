@@ -1,0 +1,364 @@
+[INFO ] 2019-11-18 10:32:59 [restartedMain] c.q.w.WebsocketChatApplication - Starting WebsocketChatApplication on LAPTOP-LUV04A0L with PID 75616 (C:\Users\11073\git\websocketRepository\websocket-chat\target\classes started by 11073 in C:\Users\11073\git\websocketRepository\websocket-chat)
+[INFO ] 2019-11-18 10:32:59 [restartedMain] c.q.w.WebsocketChatApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 288 ms
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+[INFO ] 2019-11-18 10:32:59 [restartedMain] c.q.w.WebsocketChatApplication - Started WebsocketChatApplication in 0.531 seconds (JVM running for 3986.151)
+[INFO ] 2019-11-18 10:32:59 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-11-18 10:32:59 [http-nio-8899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:32:59 [http-nio-8899-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:32:59 [http-nio-8899-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2019-11-18 10:32:59 [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 6], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 4]
+[INFO ] 2019-11-18 10:32:59 [Thread-39] o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+[INFO ] 2019-11-18 10:32:59 [Thread-39] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:32:59 [Thread-39] o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+[INFO ] 2019-11-18 10:32:59 [Thread-39] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:32:59 [Thread-39] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:32:59 [Thread-39] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:32:59 [Thread-39] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:35:40 [restartedMain] c.q.w.WebsocketChatApplication - Starting WebsocketChatApplication on LAPTOP-LUV04A0L with PID 75616 (C:\Users\11073\git\websocketRepository\websocket-chat\target\classes started by 11073 in C:\Users\11073\git\websocketRepository\websocket-chat)
+[INFO ] 2019-11-18 10:35:40 [restartedMain] c.q.w.WebsocketChatApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 301 ms
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+[INFO ] 2019-11-18 10:35:40 [restartedMain] c.q.w.WebsocketChatApplication - Started WebsocketChatApplication in 0.476 seconds (JVM running for 4147.066)
+[INFO ] 2019-11-18 10:35:40 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-11-18 10:35:40 [http-nio-8899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:35:40 [http-nio-8899-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:35:40 [http-nio-8899-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2019-11-18 10:35:40 [clientInboundChannel-7] c.q.w.controller.WebSocketController - >>>>>>>
+[INFO ] 2019-11-18 10:35:40 [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 11]
+[INFO ] 2019-11-18 10:35:40 [Thread-47] o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+[INFO ] 2019-11-18 10:35:40 [Thread-47] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:35:40 [Thread-47] o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+[INFO ] 2019-11-18 10:35:40 [Thread-47] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:35:40 [Thread-47] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:35:40 [Thread-47] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:35:40 [Thread-47] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:37:25 [restartedMain] c.q.w.WebsocketChatApplication - Starting WebsocketChatApplication on LAPTOP-LUV04A0L with PID 75616 (C:\Users\11073\git\websocketRepository\websocket-chat\target\classes started by 11073 in C:\Users\11073\git\websocketRepository\websocket-chat)
+[INFO ] 2019-11-18 10:37:25 [restartedMain] c.q.w.WebsocketChatApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 303 ms
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+[INFO ] 2019-11-18 10:37:25 [restartedMain] c.q.w.WebsocketChatApplication - Started WebsocketChatApplication in 0.474 seconds (JVM running for 4253.019)
+[INFO ] 2019-11-18 10:37:25 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-11-18 10:37:25 [http-nio-8899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:37:25 [http-nio-8899-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:37:25 [http-nio-8899-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2019-11-18 10:37:25 [clientInboundChannel-7] c.q.w.controller.WebSocketController - ::::::::::::::::
+[INFO ] 2019-11-18 10:37:25 [MessageBroker-8] o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(1)], stompBrokerRelay[null], inboundChannel[pool size = 16, active threads = 0, queued tasks = 0, completed tasks = 21], outboundChannel[pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 11]
+[INFO ] 2019-11-18 10:37:25 [Thread-53] o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+[INFO ] 2019-11-18 10:37:25 [Thread-53] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:37:25 [Thread-53] o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+[INFO ] 2019-11-18 10:37:25 [Thread-53] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:37:25 [Thread-53] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:37:25 [Thread-53] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:37:25 [Thread-53] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:40:00 [restartedMain] c.q.w.WebsocketChatApplication - Starting WebsocketChatApplication on LAPTOP-LUV04A0L with PID 75616 (C:\Users\11073\git\websocketRepository\websocket-chat\target\classes started by 11073 in C:\Users\11073\git\websocketRepository\websocket-chat)
+[INFO ] 2019-11-18 10:40:00 [restartedMain] c.q.w.WebsocketChatApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 291 ms
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+[INFO ] 2019-11-18 10:40:00 [restartedMain] c.q.w.WebsocketChatApplication - Started WebsocketChatApplication in 0.445 seconds (JVM running for 4407.805)
+[INFO ] 2019-11-18 10:40:00 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-11-18 10:40:00 [Thread-60] o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+[INFO ] 2019-11-18 10:40:00 [Thread-60] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:40:00 [Thread-60] o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+[INFO ] 2019-11-18 10:40:00 [Thread-60] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:40:00 [Thread-60] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:40:00 [Thread-60] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:40:00 [Thread-60] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:40:09 [restartedMain] c.q.w.WebsocketChatApplication - Starting WebsocketChatApplication on LAPTOP-LUV04A0L with PID 75616 (C:\Users\11073\git\websocketRepository\websocket-chat\target\classes started by 11073 in C:\Users\11073\git\websocketRepository\websocket-chat)
+[INFO ] 2019-11-18 10:40:09 [restartedMain] c.q.w.WebsocketChatApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 275 ms
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+[INFO ] 2019-11-18 10:40:09 [restartedMain] c.q.w.WebsocketChatApplication - Started WebsocketChatApplication in 0.427 seconds (JVM running for 4416.938)
+[INFO ] 2019-11-18 10:40:09 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-11-18 10:40:09 [http-nio-8899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:40:09 [http-nio-8899-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:40:09 [http-nio-8899-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2019-11-18 10:40:09 [MessageBroker-3] o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 3 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(3)-CONNECTED(3)-DISCONNECT(2)], stompBrokerRelay[null], inboundChannel[pool size = 16, active threads = 0, queued tasks = 0, completed tasks = 30], outboundChannel[pool size = 7, active threads = 0, queued tasks = 0, completed tasks = 7], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 12]
+[INFO ] 2019-11-18 10:40:09 [Thread-65] o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+[INFO ] 2019-11-18 10:40:09 [Thread-65] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:40:09 [Thread-65] o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+[INFO ] 2019-11-18 10:40:09 [Thread-65] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:40:09 [Thread-65] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:40:09 [Thread-65] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:40:09 [Thread-65] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:41:35 [restartedMain] c.q.w.WebsocketChatApplication - Starting WebsocketChatApplication on LAPTOP-LUV04A0L with PID 75616 (C:\Users\11073\git\websocketRepository\websocket-chat\target\classes started by 11073 in C:\Users\11073\git\websocketRepository\websocket-chat)
+[INFO ] 2019-11-18 10:41:35 [restartedMain] c.q.w.WebsocketChatApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 285 ms
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+[INFO ] 2019-11-18 10:41:35 [restartedMain] c.q.w.WebsocketChatApplication - Started WebsocketChatApplication in 0.436 seconds (JVM running for 4502.384)
+[INFO ] 2019-11-18 10:41:35 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-11-18 10:41:35 [Thread-74] o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+[INFO ] 2019-11-18 10:41:35 [Thread-74] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:41:35 [Thread-74] o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+[INFO ] 2019-11-18 10:41:35 [Thread-74] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:41:35 [Thread-74] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:41:35 [Thread-74] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:41:35 [Thread-74] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:42:15 [restartedMain] c.q.w.WebsocketChatApplication - Starting WebsocketChatApplication on LAPTOP-LUV04A0L with PID 75616 (C:\Users\11073\git\websocketRepository\websocket-chat\target\classes started by 11073 in C:\Users\11073\git\websocketRepository\websocket-chat)
+[INFO ] 2019-11-18 10:42:15 [restartedMain] c.q.w.WebsocketChatApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 285 ms
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+[INFO ] 2019-11-18 10:42:15 [restartedMain] c.q.w.WebsocketChatApplication - Started WebsocketChatApplication in 0.435 seconds (JVM running for 4542.109)
+[INFO ] 2019-11-18 10:42:15 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-11-18 10:42:15 [http-nio-8899-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:42:15 [http-nio-8899-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:42:15 [http-nio-8899-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2019-11-18 10:42:15 [MessageBroker-7] o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 15, active threads = 0, queued tasks = 0, completed tasks = 15], outboundChannel[pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 3, completed tasks = 13]
+[INFO ] 2019-11-18 10:42:15 [Thread-79] o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+[INFO ] 2019-11-18 10:42:15 [Thread-79] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:42:15 [Thread-79] o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+[INFO ] 2019-11-18 10:42:15 [Thread-79] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:42:15 [Thread-79] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:42:15 [Thread-79] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:42:15 [Thread-79] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:43:47 [restartedMain] c.q.w.WebsocketChatApplication - Starting WebsocketChatApplication on LAPTOP-LUV04A0L with PID 75616 (C:\Users\11073\git\websocketRepository\websocket-chat\target\classes started by 11073 in C:\Users\11073\git\websocketRepository\websocket-chat)
+[INFO ] 2019-11-18 10:43:47 [restartedMain] c.q.w.WebsocketChatApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 287 ms
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+[INFO ] 2019-11-18 10:43:47 [restartedMain] c.q.w.WebsocketChatApplication - Started WebsocketChatApplication in 0.453 seconds (JVM running for 4634.824)
+[INFO ] 2019-11-18 10:43:47 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-11-18 10:43:47 [http-nio-8899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:43:47 [http-nio-8899-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:43:47 [http-nio-8899-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2019-11-18 10:43:47 [Thread-85] o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+[INFO ] 2019-11-18 10:43:47 [Thread-85] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:43:47 [Thread-85] o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+[INFO ] 2019-11-18 10:43:47 [Thread-85] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:43:47 [Thread-85] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:43:47 [Thread-85] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:43:47 [Thread-85] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:44:37 [restartedMain] c.q.w.WebsocketChatApplication - Starting WebsocketChatApplication on LAPTOP-LUV04A0L with PID 75616 (C:\Users\11073\git\websocketRepository\websocket-chat\target\classes started by 11073 in C:\Users\11073\git\websocketRepository\websocket-chat)
+[INFO ] 2019-11-18 10:44:37 [restartedMain] c.q.w.WebsocketChatApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 287 ms
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+[INFO ] 2019-11-18 10:44:37 [restartedMain] c.q.w.WebsocketChatApplication - Started WebsocketChatApplication in 0.439 seconds (JVM running for 4684.743)
+[INFO ] 2019-11-18 10:44:37 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-11-18 10:44:37 [http-nio-8899-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:44:37 [http-nio-8899-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:44:37 [http-nio-8899-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2019-11-18 10:44:37 [Thread-91] o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+[INFO ] 2019-11-18 10:44:37 [Thread-91] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:44:37 [Thread-91] o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+[INFO ] 2019-11-18 10:44:37 [Thread-91] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:44:37 [Thread-91] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:44:37 [Thread-91] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:44:37 [Thread-91] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:45:29 [restartedMain] c.q.w.WebsocketChatApplication - Starting WebsocketChatApplication on LAPTOP-LUV04A0L with PID 75616 (C:\Users\11073\git\websocketRepository\websocket-chat\target\classes started by 11073 in C:\Users\11073\git\websocketRepository\websocket-chat)
+[INFO ] 2019-11-18 10:45:29 [restartedMain] c.q.w.WebsocketChatApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 311 ms
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+[INFO ] 2019-11-18 10:45:29 [restartedMain] c.q.w.WebsocketChatApplication - Started WebsocketChatApplication in 0.481 seconds (JVM running for 4736.09)
+[INFO ] 2019-11-18 10:45:29 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-11-18 10:45:29 [http-nio-8899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:45:29 [http-nio-8899-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-11-18 10:45:29 [http-nio-8899-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2019-11-18 10:45:29 [MessageBroker-5] o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 12, active threads = 0, queued tasks = 0, completed tasks = 12], outboundChannel[pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 3, completed tasks = 10]
+[INFO ] 2019-11-18 10:45:29 [clientInboundChannel-16] c.q.w.controller.WebSocketController - ::::::::::::::::
+[INFO ] 2019-11-18 10:45:29 [clientInboundChannel-19] c.q.w.controller.WebSocketController - ::::::::::::::::
+[INFO ] 2019-11-18 10:45:29 [Thread-97] o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+[INFO ] 2019-11-18 10:45:29 [Thread-97] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 10:45:29 [Thread-97] o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+[INFO ] 2019-11-18 10:45:29 [Thread-97] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 10:45:29 [Thread-97] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 10:45:29 [Thread-97] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 10:45:29 [Thread-97] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 11:02:17 [restartedMain] c.q.w.WebsocketChatApplication - Starting WebsocketChatApplication on LAPTOP-LUV04A0L with PID 75616 (C:\Users\11073\git\websocketRepository\websocket-chat\target\classes started by 11073 in C:\Users\11073\git\websocketRepository\websocket-chat)
+[INFO ] 2019-11-18 11:02:17 [restartedMain] c.q.w.WebsocketChatApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 290 ms
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+[INFO ] 2019-11-18 11:02:17 [restartedMain] c.q.w.WebsocketChatApplication - Started WebsocketChatApplication in 0.472 seconds (JVM running for 5744.593)
+[INFO ] 2019-11-18 11:02:17 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-11-18 11:02:17 [Thread-103] o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+[INFO ] 2019-11-18 11:02:17 [Thread-103] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 11:02:17 [Thread-103] o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+[INFO ] 2019-11-18 11:02:17 [Thread-103] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 11:02:17 [Thread-103] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 11:02:17 [Thread-103] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 11:02:17 [Thread-103] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 11:03:11 [restartedMain] c.q.w.WebsocketChatApplication - Starting WebsocketChatApplication on LAPTOP-LUV04A0L with PID 75616 (C:\Users\11073\git\websocketRepository\websocket-chat\target\classes started by 11073 in C:\Users\11073\git\websocketRepository\websocket-chat)
+[INFO ] 2019-11-18 11:03:11 [restartedMain] c.q.w.WebsocketChatApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 291 ms
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+[INFO ] 2019-11-18 11:03:11 [restartedMain] c.q.w.WebsocketChatApplication - Started WebsocketChatApplication in 0.442 seconds (JVM running for 5798.993)
+[INFO ] 2019-11-18 11:03:11 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-11-18 11:03:11 [http-nio-8899-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-11-18 11:03:11 [http-nio-8899-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-11-18 11:03:11 [http-nio-8899-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2019-11-18 11:03:11 [MessageBroker-2] o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 6], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 11]
+[INFO ] 2019-11-18 11:03:11 [clientInboundChannel-10] c.q.w.controller.WebSocketController - ::::::::::::::::
+[INFO ] 2019-11-18 11:03:11 [clientInboundChannel-28] c.q.w.controller.WebSocketController - ::::::::::::::::
+[INFO ] 2019-11-18 11:03:11 [Thread-108] o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+[INFO ] 2019-11-18 11:03:11 [Thread-108] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 11:03:11 [Thread-108] o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+[INFO ] 2019-11-18 11:03:11 [Thread-108] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 11:03:11 [Thread-108] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 11:03:11 [Thread-108] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 11:03:11 [Thread-108] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 11:19:21 [restartedMain] c.q.w.WebsocketChatApplication - Starting WebsocketChatApplication on LAPTOP-LUV04A0L with PID 75616 (C:\Users\11073\git\websocketRepository\websocket-chat\target\classes started by 11073 in C:\Users\11073\git\websocketRepository\websocket-chat)
+[INFO ] 2019-11-18 11:19:21 [restartedMain] c.q.w.WebsocketChatApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 282 ms
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+[INFO ] 2019-11-18 11:19:21 [restartedMain] c.q.w.WebsocketChatApplication - Started WebsocketChatApplication in 0.433 seconds (JVM running for 6768.057)
+[INFO ] 2019-11-18 11:19:21 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2019-11-18 11:19:21 [http-nio-8899-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-11-18 11:19:21 [http-nio-8899-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-11-18 11:19:21 [http-nio-8899-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2019-11-18 11:19:21 [MessageBroker-3] o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(1)], stompBrokerRelay[null], inboundChannel[pool size = 16, active threads = 0, queued tasks = 0, completed tasks = 18], outboundChannel[pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 9]
+[INFO ] 2019-11-18 11:19:21 [clientInboundChannel-18] c.q.w.controller.WebSocketController - ::::::::::::::::
+[INFO ] 2019-11-18 11:19:21 [clientInboundChannel-21] c.q.w.controller.WebSocketController - ::::::::::::::::

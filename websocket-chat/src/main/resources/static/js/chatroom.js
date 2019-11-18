@@ -4,6 +4,7 @@ var stompClient = null;
 	$(function(){	
 		//打开双通道
 		connect()
+		$("#selectName").change(sendAloneUser);
 	})
 	
 	//强制关闭浏览器  调用websocket.close（）,进行正常关闭
@@ -13,7 +14,7 @@ var stompClient = null;
  
 	//打开双通道
     function connect(){
-        var socket = new SockJS('http://127.0.0.1:8899/endpointQzing'); //连接SockJS的endpoint名称为"endpointAric"
+        var socket = new SockJS('http://127.0.0.1:8899/endpointQzing'); //连接SockJS的endpoint名称为"endpointQzing"
         stompClient = Stomp.over(socket);//使用STMOP子协议的WebSocket客户端
         stompClient.connect({},function(frame){//连接WebSocket服务端
          
